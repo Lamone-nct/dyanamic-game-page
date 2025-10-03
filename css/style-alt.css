@@ -1,0 +1,32 @@
+body {
+    font-family: 'Courier New', monospace;
+    background-color: #222;
+    color: #00ff00; /* Neon green text */
+    transition: background-color 0.5s;
+    padding: 20px;
+}
+
+#game-container {
+    border: 3px dashed #ff00ff; /* Neon pink border */
+    padding: 25px;
+    margin-bottom: 25px;
+    background-color: #000;
+    border-radius: 0;
+    box-shadow: 0 0 10px #ff00ff;
+}
+
+.controls button {
+    padding: 12px 18px;
+    margin: 8px;
+    background-color: #ff00ff;
+    color: black;
+    border: 2px solid #00ff00;
+    border-radius: 0;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.controls button:hover {
+    background-color: #00ff00;
+    color: #ff00ff;
+}
